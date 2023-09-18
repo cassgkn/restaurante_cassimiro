@@ -18,6 +18,10 @@ body {
     color: #fff;
 }
 
+#cabecalho .nav .nav-link:hover {
+   font-size: 18px;
+}
+
 .navbar-toggler {
     background-color:#fffefe
 }
