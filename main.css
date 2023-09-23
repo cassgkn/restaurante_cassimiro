@@ -1,21 +1,20 @@
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
+    font-family: Roboto, sans-serif;
 }
 
 .navbar {
-    background-color: #3f972b;
+    background-color: #e15f41;
 }
 
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
-    color:  #3f972b;
+    color: #e15f41;
 }
 
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
-.nav-produto.nav-link.active:hover {
+.nav-cardapio .nav-link.active:hover {
     color: #fff;
 }
 
@@ -23,45 +22,35 @@ body {
    font-size: 18px;
 }
 
-.container .logo {
-    width: 100px;
-}
-
 .navbar-toggler {
     background-color:#fffefe
 }
 
 .section-title {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
+    font-family: Pacifico, cursive;
 }
 
-#sobre-nos {
+#sobre-o-restaurante {
     background-color: #fffefe;
 }
 
-.row .sobre-nos {
-    height: 350px;
-    width: 300px;
-}
-
 .text-colored {
-    color: #3f972b;
+    color:#e15f41;
 }
 
-.nav-produto .nav-link.active,
+.nav-cardapio .nav-link.active,
 .fale-conosco button {
-    background-color: #9bb993;
+    background-color: #e15f41;
     color: #fff;
 }
 
-.nav-produto .nav-link:hover {
-   color: #3f972b;
+.nav-cardapio .nav-link:hover {
+   color: #e15f41; 
 }
 
-.controles,
+.eventos,
 #fale-conosco {
-    background-color: #d5f9d497;
+    background-color: #e2d6d3;
 }
 
 .social-links li {
@@ -71,7 +60,6 @@ body {
 
 .social-links a {
     text-decoration: none;
-    
 }
 
 .error {
@@ -80,44 +68,8 @@ body {
     color: rgb(87, 85, 85);
 }
 
-.container .controles-personalizados {
-    max-width: 70%;
-
-}
-
-.material-symbols-outlined {
-    cursor: pointer;
-}
-
-.material-symbols-outlined:hover{
-    color: rgb(14, 233, 39);
-    font-size: 30px;
-}
-
-.card .card-body .card-text {
-    font-size: 15px;
-}
-
-
 @media (max-width: 767px) {
     .carousel-item img {
         height: 280px;
-    }
-}
-
-@media (max-width: 540px) {
-    .carousel-item img {
-        width: 380px;
-        height: 200px;
-    }
-
-    .sobre-nos {
-        margin-left: 8%;
-    }
-}
-
-@media screen and (max-width: 1570px) {
-    .carousel-item img {
-
     }
 }
